@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-import { StartPage } from './components/StartPage';
+import { Header } from './components/Header';
 
 import './App.css';
  
@@ -18,7 +18,7 @@ const App = () => {
           </Route>
           {/* bottom one is the default route */}
           <Route path="/">
-            <StartPage />
+             <Header />
           </Route>
         </Switch>
       </div>
